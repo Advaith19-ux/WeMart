@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Build outputs
+/dist
+/build
+*.out
+
+# Environment variables and secrets
+.env
+.env.local
+*.pem
+
+# IDE and System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
